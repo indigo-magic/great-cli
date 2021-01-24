@@ -1,0 +1,25 @@
+{
+  "name": "@indigo-magic/great-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {"access": "public"},
+  "author": "Entropy",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.3",
+    "ora": "^5.1.0",
+    "rollup": "^2.38.0",
+    "shelljs": "^0.8.4"
+  },
+  "bin": {
+    "multi-spa-webpack": "./bin/multi-spa.js"
+  }
+}
