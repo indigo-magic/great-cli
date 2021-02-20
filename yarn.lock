@@ -2,6 +2,33 @@
 # yarn lockfile v1
 
 
+"@types/fs-extra@^9.0.7":
+  version "9.0.7"
+  resolved "https://registry.npm.taobao.org/@types/fs-extra/download/@types/fs-extra-9.0.7.tgz#a9ef2ffdab043def080c5bec94c03402f793577f"
+  integrity sha1-qe8v/asEPe8IDFvslMA0AveTV38=
+  dependencies:
+    "@types/node" "*"
+
+"@types/inquirer@^7.3.1":
+  version "7.3.1"
+  resolved "https://registry.npm.taobao.org/@types/inquirer/download/@types/inquirer-7.3.1.tgz#1f231224e7df11ccfaf4cf9acbcc3b935fea292d"
+  integrity sha1-HyMSJOffEcz69M+ay8w7k1/qKS0=
+  dependencies:
+    "@types/through" "*"
+    rxjs "^6.4.0"
+
+"@types/node@*", "@types/node@^14.14.30":
+  version "14.14.30"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.30.tgz#7d5162eec085ba34f8cb9011e9ba12119f76f961"
+  integrity sha1-fVFi7sCFujT4y5AR6boSEZ92+WE=
+
+"@types/through@*":
+  version "0.0.30"
+  resolved "https://registry.npm.taobao.org/@types/through/download/@types/through-0.0.30.tgz#e0e42ce77e897bd6aead6f6ea62aeb135b8a3895"
+  integrity sha1-4OQs536Je9aurW9upirrE1uKOJU=
+  dependencies:
+    "@types/node" "*"
+
 ansi-escapes@^4.2.1:
   version "4.3.1"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/ansi-escapes/-/ansi-escapes-4.3.1.tgz#a5c47cc43181f1f38ffd7076837700d395522a61"
@@ -27,6 +54,11 @@ ansi-styles@^4.1.0:
   integrity sha1-7dgDYornHATIWuegkG7a00tkiTc=
   dependencies:
     color-convert "^2.0.1"
+
+arg@^4.1.0:
+  version "4.1.3"
+  resolved "https://registry.npm.taobao.org/arg/download/arg-4.1.3.tgz?cache=0&sync_timestamp=1605574972657&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Farg%2Fdownload%2Farg-4.1.3.tgz#269fc7ad5b8e42cb63c896d5666017261c144089"
+  integrity sha1-Jp/HrVuOQstjyJbVZmAXJhwUQIk=
 
 async@0.9.x:
   version "0.9.2"
@@ -65,6 +97,11 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
+buffer-from@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/buffer-from/download/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
+  integrity sha1-MnE7wCj3XAL9txDXx7zsHyxgcO8=
+
 buffer@^5.5.0:
   version "5.7.1"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/buffer/-/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
@@ -72,6 +109,11 @@ buffer@^5.5.0:
   dependencies:
     base64-js "^1.3.1"
     ieee754 "^1.1.13"
+
+cac@^6.7.2:
+  version "6.7.2"
+  resolved "https://registry.npm.taobao.org/cac/download/cac-6.7.2.tgz#e7f0d21f4776c46c7d0de7976e56fa5562e17597"
+  integrity sha1-5/DSH0d2xGx9DeeXblb6VWLhdZc=
 
 chalk@^2.4.2:
   version "2.4.2"
@@ -151,12 +193,22 @@ concat-map@0.0.1:
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
 
+create-require@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.npm.taobao.org/create-require/download/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
+  integrity sha1-wdfo8eX2z8n/ZfnNNS03NIdWwzM=
+
 defaults@^1.0.3:
   version "1.0.3"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/defaults/-/defaults-1.0.3.tgz#c656051e9817d9ff08ed881477f3fe4019f3ef7d"
   integrity sha1-xlYFHpgX2f8I7YgUd/P+QBnz730=
   dependencies:
     clone "^1.0.2"
+
+diff@^4.0.1:
+  version "4.0.2"
+  resolved "https://registry.npm.taobao.org/diff/download/diff-4.0.2.tgz?cache=0&sync_timestamp=1604803664325&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdiff%2Fdownload%2Fdiff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
+  integrity sha1-YPOuy4nV+uUgwRqhnvwruYKq3n0=
 
 ejs@^3.1.5:
   version "3.1.5"
@@ -354,6 +406,11 @@ log-symbols@^4.0.0:
   dependencies:
     chalk "^4.0.0"
 
+make-error@^1.1.1:
+  version "1.3.6"
+  resolved "https://registry.npm.taobao.org/make-error/download/make-error-1.3.6.tgz#2eb2e37ea9b67c4891f684a1394799af484cf7a2"
+  integrity sha1-LrLjfqm2fEiR9oShOUeZr0hM96I=
+
 mimic-fn@^2.1.0:
   version "2.1.0"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
@@ -458,7 +515,7 @@ run-async@^2.4.0:
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/run-async/-/run-async-2.4.1.tgz#8440eccf99ea3e70bd409d49aab88e10c189a455"
   integrity sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU=
 
-rxjs@^6.6.0:
+rxjs@^6.4.0, rxjs@^6.6.0:
   version "6.6.3"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/rxjs/-/rxjs-6.6.3.tgz#8ca84635c4daa900c0d3967a6ee7ac60271ee552"
   integrity sha1-jKhGNcTaqQDA05Z6buesYCce5VI=
@@ -488,6 +545,19 @@ signal-exit@^3.0.2:
   version "3.0.3"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha1-oUEMLt2PB3sItOJTyOrPyvBXRhw=
+
+source-map-support@^0.5.17:
+  version "0.5.19"
+  resolved "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.19.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map-support%2Fdownload%2Fsource-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
+  integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
+source-map@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
 
 string-width@^4.1.0:
   version "4.2.0"
@@ -538,6 +608,18 @@ tmp@^0.0.33:
   dependencies:
     os-tmpdir "~1.0.2"
 
+ts-node@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.npm.taobao.org/ts-node/download/ts-node-9.1.1.tgz#51a9a450a3e959401bda5f004a72d54b936d376d"
+  integrity sha1-UamkUKPpWUAb2l8ASnLVS5NtN20=
+  dependencies:
+    arg "^4.1.0"
+    create-require "^1.1.0"
+    diff "^4.0.1"
+    make-error "^1.1.1"
+    source-map-support "^0.5.17"
+    yn "3.1.1"
+
 tslib@^1.9.0:
   version "1.14.1"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
@@ -547,6 +629,11 @@ type-fest@^0.11.0:
   version "0.11.0"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/type-fest/-/type-fest-0.11.0.tgz#97abf0872310fed88a5c466b25681576145e33f1"
   integrity sha1-l6vwhyMQ/tiKXEZrJWgVdhReM/E=
+
+typescript@^4.1.5:
+  version "4.1.5"
+  resolved "https://registry.npm.taobao.org/typescript/download/typescript-4.1.5.tgz#123a3b214aaff3be32926f0d8f1f6e704eb89a72"
+  integrity sha1-Ejo7IUqv874ykm8Njx9ucE64mnI=
 
 universalify@^2.0.0:
   version "2.0.0"
@@ -569,3 +656,8 @@ wrappy@1:
   version "1.0.2"
   resolved "http://nexus.tanzk.com:8081/repository/tzedu_npm_public/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+yn@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/yn/download/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
+  integrity sha1-HodAGgnXZ8HV6rJqbkwYUYLS61A=
