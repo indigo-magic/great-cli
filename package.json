@@ -2,33 +2,46 @@
   "name": "@indigo-magic/great-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/great-cli.cjs.js",
+  "module": "./dist/great-cli.js",
   "scripts": {
-    "dev": "ts-node ./index.ts create testApp",
+    "build": "rollup -c rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
     "access": "public"
   },
+  "exports": {
+    "require": "./dist/great-cli.cjs.js",
+    "import": "./dist/great-cli.js"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "micro-fronted"
+  ],
   "author": "Entropy",
   "license": "ISC",
   "dependencies": {
     "@types/fs-extra": "^9.0.7",
-    "@types/inquirer": "^7.3.1",
+    "@types/lodash": "^4.14.168",
     "@types/node": "^14.14.30",
     "cac": "^6.7.2",
     "chalk": "^4.1.0",
     "commander": "^6.1.0",
-    "ejs": "^3.1.5",
+    "enquirer": "^2.3.6",
     "fs-extra": "^9.0.1",
-    "inquirer": "^7.3.3",
+    "lodash": "^4.17.21",
     "ora": "^5.1.0",
-    "rollup": "^2.38.0",
-    "shelljs": "^0.8.4",
+    "rollup": "^2.39.1",
+    "rollup-plugin-ts": "^1.3.7",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.5"
   },
   "bin": {
     "create-micro-master": "index.js"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
